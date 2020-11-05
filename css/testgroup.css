@@ -1,0 +1,329 @@
+.allBody {
+    overflow: hidden;
+}
+
+.container-tg .bodytable {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.up {
+    height: 40%;
+}
+
+.coverhead {
+    background-color: rgb(176, 176, 255);
+    height: 4%;
+}
+
+.center {
+    background-color: rgb(176, 176, 255);
+    height: 4%;
+    border-top: 1px solid #555555;
+}
+
+.center p {
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.top {
+    width: 100%;
+    height: 100%;
+}
+
+.top .main {
+    width: 100%;
+    height: 100%;
+}
+
+.top div {
+    margin-left: 0;
+}
+
+.front {
+    width: 28%;
+}
+
+.middle {
+    width: 40%;
+}
+
+.top p {
+    margin-left: 5%;
+}
+
+#tests {
+    margin-left: 7%;
+}
+
+.inn,
+.testlist {
+    display: inline-block;
+}
+
+.last #clear,
+.last #save {
+    margin-left: 25%;
+    margin-top: 6%;
+}
+
+.middle .inn {
+    margin-left: 20%;
+    margin-top: 17%;
+}
+
+.middle #tests {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+#groupname {
+    margin-left: 2%;
+}
+
+.middle .testlist {
+    height: 230px;
+    width: 220px;
+    overflow: auto;
+    margin-left: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    float: right;
+    border-radius: 5px;
+}
+
+.testlist th {
+    padding: 4px 6px;
+}
+
+.down th {
+    padding: 4px 11.25px;
+}
+
+.testlist th,
+.down th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 50;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.testlist td,
+.down-table td,
+.testlist2 td {
+    padding: 2px 6px;
+    border-bottom: 1px solid #969595;
+}
+
+.top input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.top #add {
+    cursor: pointer;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    width: 80px;
+    margin-top: 33%;
+    padding-left: 6px;
+}
+
+#clear,
+#save {
+    cursor: pointer;
+    padding: 6px 17px;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    width: 80px;
+}
+
+.down-third #clear-group {
+    cursor: pointer;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    border-radius: 9px;
+    border: none;
+    color: white;
+    margin-top: 20%;
+    width: 90px;
+    margin-left: 20%;
+    background-color: #1c8adb;
+}
+
+.removebtn,
+.removebtn-group,
+.removebtn-test {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #d1d1d1;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 6px;
+}
+
+#viewgroup td .removebtn-group {
+    margin-left: 25%;
+}
+
+#t td .removebtn-test {
+    margin-left: 25%;
+}
+
+#t2 td .removebtn {
+    margin-left: 30%;
+}
+
+#t2 .removebtn:hover,
+#t .removebtn-test:hover,
+#viewgroup .removebtn-group:hover {
+    background-color: whitesmoke;
+}
+
+#clear:hover,
+#save:hover,
+#search:hover,
+#clear-group:hover,
+.down #search-test-btn:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.top input[type="button"]:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.down .down-cover {
+    width: 100%;
+    height: 100%;
+}
+
+.down input[type="text"] {
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 0.2px;
+    outline: hidden;
+    box-shadow: 0 0 20px rgb(179, 164, 248);
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding-left: 6px;
+}
+
+.down #search-test-btn {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px 8px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.down-cover .down-table {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 240px;
+}
+
+.down .down-table {
+    height: 180px;
+    width: 240px;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+}
+
+.down-table tr:hover,
+.testlist tr:hover,
+#t2 tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+.down-second .final {
+    height: 250px;
+    % width: 400px;
+}
+
+#search-test-for-group {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.testlist2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 180px;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.301);
+    width: 400px;
+    border-radius: 5px;
+}
+
+.down-cover .space {
+    width: 15%;
+}
+
+.down-second {
+    width: 38%;
+    height: 100%;
+}
+
+.down-first {
+    width: 20%;
+}
+
+.down .space #select {
+    border: 1px solid rgb(133, 133, 133);
+    text-align: center;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 160px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.down {
+    padding: 0;
+}

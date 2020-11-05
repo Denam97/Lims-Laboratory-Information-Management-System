@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.search-refer,
+.test1-refer {
+    display: inline-block;
+}
+
+.container-refer .search-refer {
+    width: 50%;
+    height: 100%;
+}
+
+.container-refer .test1-refer {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.search-refer p {
+    margin: 5% 8%;
+}
+
+.search-refer input[type="text"] {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.viewDoc th,
+td {
+    margin: 2% 3%;
+}
+
+.viewDoc th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    padding: 4px 11.25px;
+    font-weight: 50;
+    position: sticky;
+    top: 0px;
+}
+
+.viewDoc tbody td {
+    padding: 4px 4px;
+    border-bottom: 1px solid #969595;
+    text-align: center;
+}
+
+.search-refer .viewcover {
+    margin: 9% 10%;
+    width: fit-content;
+    height: 60%;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.search-refer .viewDoc {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.test-refer {
+    margin: 12% 12%;
+    width: fit-content;
+}
+
+.test1-refer input[type="text"] {
+    margin: 6px 12px;
+}
+
+.container-refer input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 220px;
+    padding-left: 6px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#tcost {
+    width: 100px;
+}
+
+#percentage {
+    margin-right: 0;
+    width: 50px;
+}
+
+#clear,
+#DocPay {
+    cursor: pointer;
+    padding: 8px 19px;
+    margin-left: 4%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+.test-refer #clear {
+    margin-left: 38%;
+}
+
+.test-refer #clear,
+.test-refer #DocPay {
+    margin-top: 20%;
+    width: 95px;
+}
+
+#find {
+    cursor: pointer;
+    padding: 5px 6px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+#clear-all {
+    cursor: pointer;
+    padding: 5px 6px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+#clear-all:hover,
+#clear:hover,
+#DocPay:hover,
+#calbtn:hover,
+#find:hover,
+#print:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.viewDoc tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+.viewDoc tbody tr {
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+#calbtn {
+    cursor: pointer;
+    padding: 6px 5px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+#searchbar {
+    margin-top: 5%;
+}
+
+.dt #month {
+    margin-top: 6%;
+}
+
+.dt .my {
+    margin-left: 5%;
+}
+
+#month,
+#year {
+    width: 100px;
+    height: 25px;
+}
+
+.test1-refer .dt {
+    margin-left: 12%;
+    height: 14%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 30px;
+}
+
+#records-tag {
+    color: #6b6b6b;
+    float: right;
+    margin-right: 5.5%;
+    font-size: 14px;
+}
+
+
+/* pop up modal */
+
+.print-main-refer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-refer {
+    background-color: #fefefe;
+    margin: 8% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 70%;
+}
+
+.print-main-refer .Print-preview {
+    background-color: #fefefe;
+    margin: 0 auto;
+    /* padding: 20px; */
+    /* border: 1px solid #888; */
+}
+
+
+/*close btn*/
+
+.close-refer {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-refer:hover,
+.close-refer:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content-refer .close-div {
+    height: 7%;
+}
+
+.print-data tr td {
+    padding: 10px 10px;
+}
+
+#print {
+    float: right;
+    cursor: pointer;
+    padding: 5px 6px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}

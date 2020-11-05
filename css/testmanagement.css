@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.search,
+.test1-manage {
+    display: inline-block;
+}
+
+.container-manage .search {
+    width: 50%;
+    height: 100%;
+}
+
+.container-manage .test1-manage {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.search p {
+    margin: 5% 12%;
+}
+
+.search input[type="text"] {
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.viewtest-manage th,
+td {
+    margin: 2% 3%;
+}
+
+.viewtest-manage th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: left;
+    padding: 4px 11.25px;
+    font-weight: 50;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.viewtest-manage tbody td {
+    padding: 4px 4px;
+    border-bottom: 1px solid #969595;
+}
+
+.search .viewcover-manage {
+    margin: 2% 12%;
+    width: fit-content;
+    height: 60%;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.search .viewtest-manage {
+    width: 460px;
+}
+
+.test-manage {
+    margin: 22% 60px;
+}
+
+.test1-manage input[type="text"] {
+    margin: 6px 12px;
+}
+
+.container-manage input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 220px;
+    padding-left: 6px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+#delete,
+#clear-manage,
+#update,
+#searchbtn-manage {
+    cursor: pointer;
+    padding: 8px 19px;
+    margin-left: 4%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+#delete,
+#clear-manage,
+#update {
+    margin-top: 18%;
+}
+
+#delete:hover,
+#clear-manage:hover,
+#update:hover,
+#searchbtn-manage:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.viewtest-manage tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+.viewtest-manage tbody tr {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}

@@ -1,0 +1,187 @@
+*,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+body {
+    background-image: url("../images/body.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-body,
+header {
+    display: block;
+}
+
+.main-body {
+    height: 91.9%;
+}
+
+header {
+    background-color: rgb(33, 33, 68);
+    height: 8%;
+    width: max-width;
+    padding: 0px;
+    border: none;
+    border-right: 2px solid rgb(0, 0, 41);
+    /* border-left: 2px solid rgb(0, 0, 41); */
+    border-bottom: 0.5px solid rgba(177, 177, 177, 0.185);
+    background-blend-mode: lighten;
+    opacity: 0.85;
+}
+
+#right-nav {
+    float: right;
+    margin: 10px;
+}
+
+#left-nav a {
+    float: left;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont;
+    margin-left: 60px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#right-nav li {
+    display: inline-block;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont;
+    padding: 5px;
+}
+
+
+/* The side navigation menu */
+
+.main-body .sidebar,
+.main-body .content1 {
+    display: inline-block;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+
+.main-body .content1 {
+    height: 100%;
+    overflow: hidden;
+    width: 85%;
+    float: right;
+    position: relative;
+    background-color: rgba(220, 220, 253, 0.849);
+    background-blend-mode: lighten;
+}
+
+.main-body .sidebar {
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    width: 15%;
+    background-image: url("../images/sidebar3.png");
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-size: 100% 100%;
+    background-color: rgb(61, 61, 87);
+}
+
+
+/* Sidebar links */
+
+.sidebar li {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    border-bottom: 0.5px solid rgba(177, 177, 177, 0.623);
+    width: 100%;
+    height: 6%;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 16px;
+    color: white;
+    padding-top: 11%;
+    cursor: pointer;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Active/current link */
+
+
+/* .sidebar li.active {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+
+/* Links on mouse-over */
+
+.sidebar li:hover {
+    background-color: rgba(73, 73, 73, 0.61);
+    color: rgb(142, 163, 184);
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar li {
+        float: left;
+    }
+    div.content1 {
+        margin-left: 0;
+    }
+}
+
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+
+@media screen and (max-width: 400px) {
+    .sidebar li {
+        text-align: center;
+        float: none;
+    }
+}
+
+#logout {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.pinner {
+    overflow: hidden;
+    max-height: 10em;
+    transition: max-height 0.3s;
+    width: 100%;
+    display: none;
+}
+
+.pinner ul {
+    width: 100%;
+    float: left;
+}
+
+.dropdown li {
+    text-align: left;
+    padding-left: 17%;
+    background-color: #1c8bdbbb;
+    border-bottom: 0.1px solid rgba(73, 73, 73, 0.795);
+    border-top: 0.1px solid rgba(68, 68, 68, 0.795);
+    height: 4.5%;
+    padding-top: 8%;
+    width: 84%;
+    font-size: 14px;
+}

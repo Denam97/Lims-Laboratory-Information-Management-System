@@ -1,0 +1,110 @@
+#left-nav a {
+    float: left;
+    font-size: 30px;
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont;
+    margin-left: 60px;
+}
+
+#right-nav {
+    float: right;
+    margin: 10px;
+}
+
+#right-nav li {
+    display: inline-block;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont;
+    padding: 5px;
+}
+
+header {
+    background-color: rgb(41, 41, 85);
+    height: 52px;
+    width: max-width;
+    padding: 0px;
+    border-right: 2px solid rgb(0, 0, 41);
+    border-left: 2px solid rgb(0, 0, 41);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+*,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    float: left;
+    background-color: rgb(54, 54, 117);
+    width: 12.5%;
+    height: 100%;
+    position: fixed;
+    color: white;
+    border-right: 2px solid rgb(0, 0, 41);
+    border-left: 2px solid rgb(0, 0, 41);
+}
+
+.sidebar ul a {
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    line-height: 60px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black;
+}
+
+.dropdown li {
+    list-style-type: none;
+}
+
+.pinner {
+    background-color: rgb(150, 150, 228);
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+    position: fixed;
+}
+
+.pinner ul a {
+    text-decoration: none;
+    display: block;
+    width: 190px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.pinner:hover a:hover {
+    background-color: rgb(127, 127, 196);
+}
+
+.baritem li:hover {
+    background-color: rgb(39, 39, 88);
+}
+
+.drop:target .pinner {
+    max-height: 10em;
+}
+
+li:target {
+    background-color: rgb(39, 39, 88);
+}
+
+.container {
+    margin-left: 12.5%;
+    padding: 0px;
+    height: 100%;
+    width: 87.5%;
+    background-color: rgb(220, 220, 253);
+    position: fixed;
+}

@@ -1,0 +1,127 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.viewtest1,
+.test1 {
+    display: inline-block;
+}
+
+.test1 {
+    width: fit-content;
+    width: 45%;
+    height: 100%;
+}
+
+.viewtest1 {
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+
+.test {
+    margin-top: 15%;
+    margin-left: 12%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.test input {
+    margin: 7px;
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 220px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.viewtest th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: left;
+    padding: 6px 15px;
+    font-weight: 50;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.viewtest1 .viewcover {
+    width: 80%;
+    margin: 10% auto;
+    width: fit-content;
+    height: 60%;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.viewtest tbody td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #969595;
+}
+
+#save,
+#clear {
+    cursor: pointer;
+    width: 85px;
+    padding: 0px 10px;
+    text-align: center;
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+#clear {
+    margin-left: 38%;
+}
+
+#save {
+    margin-left: 6%;
+}
+
+#save:hover,
+#clear:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.viewtest tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+#min,
+#maximum {
+    margin: 7px;
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+#min-lbl {
+    margin-left: 20px;
+}
+
+#max-lbl {
+    margin-left: 15px;
+}

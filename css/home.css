@@ -1,0 +1,483 @@
+body {
+    position: relative;
+}
+
+.container-home .searchbar {
+    height: 45px;
+    width: 100%;
+    background-color: rgba(149, 212, 241, 0.301);
+}
+
+.container-home {
+    width: 85%;
+    position: fixed;
+}
+
+.searchbar #patsearch {
+    margin: 10px 10px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 0.2px;
+    outline: hidden;
+    box-shadow: 0 0 20px rgb(179, 164, 248);
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+#searchbtn {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2.5px 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: white;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    background-image: url(../images/fill.png);
+    background-size: 100% 100%;
+}
+
+#searchbtn:hover {
+    background-color: rgb(12, 67, 92);
+    color: rgb(12, 67, 92);
+}
+
+.patient input {
+    margin-bottom: 5px;
+}
+
+.patient input[type="text"],
+.patient input[type="tel"],
+.patient input[type="number"] {
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 220px;
+    box-shadow: 0 0 20px rgba(102, 102, 102, 0.795);
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+#female {
+    margin-left: 50px;
+}
+
+#male {
+    margin-left: 30px;
+}
+
+.patient table td {
+    font-family: -apple-system, BlinkMacSystemFont;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+.patient table {
+    width: 90%;
+    height: max-content;
+    padding-left: 3%;
+}
+
+.patient {
+    margin-left: 15px;
+    margin-top: 3%;
+}
+
+.tablecover {
+    margin-left: 4%;
+    width: 60%;
+    margin-top: 3%;
+    height: 240px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.testtable {
+    width: 100%;
+}
+
+.testtable td,
+th {
+    border-bottom: 1px solid #969595;
+}
+
+.testtable tbody tr td {
+    padding: 10px 25px;
+}
+
+.testtable th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px 30px;
+    font-weight: 150;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-home .main {
+    width: 100%;
+    height: 100%;
+}
+
+.sum,
+.tablecover {
+    display: inline-block;
+}
+
+.container-home .main .sum {
+    float: right;
+    margin-top: 40px;
+    margin-right: 150px;
+    height: 100%;
+    width: fit-content;
+}
+
+.main .sum #total {
+    margin: 4px;
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding-left: 6%;
+}
+
+.main .sum #discount {
+    margin: 4px;
+    border: none;
+    border: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 60px;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+
+.container-home .main .sum #submitbtn {
+    cursor: pointer;
+    padding: 6px 0;
+    padding-left: 35px;
+    padding-right: 10px;
+    margin-top: 25%;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    background-image: url(../images/submit.png);
+    background-size: 34% 100%;
+    background-repeat: no-repeat;
+}
+
+.tt {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(12, 67, 92);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+#add {
+    cursor: pointer;
+    padding: 6px 19px;
+    margin-top: 5%;
+    margin-right: 10%;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+#add:hover,
+.main .sum #submitbtn:hover,
+.content-home #Doc-details #Doc-clear:hover,
+.content-home #Doc-details #Doc-submit:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.testtable tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+#docBtn {
+    cursor: pointer;
+    background-color: rgba(207, 207, 207, 0.644);
+    color: black;
+    font-size: 20px;
+    border: 2px solid rgba(168, 168, 168, 0.582);
+    height: 29px;
+    float: right;
+    margin-right: 32%;
+    border-radius: 7px;
+    background-image: url(../images/newDoc.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 29px;
+}
+
+#docBtn:hover {
+    background-color: aliceblue;
+}
+
+.docAdd {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+.content-home {
+    background-color: #fefefe;
+    margin: 12% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 50%;
+}
+
+.content-home #Doc-details {
+    background-color: rgba(177, 177, 177, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 70%;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+.content-home #Doc-details input[type="text"] {
+    margin: 4px;
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.content-home #Doc-details #DocTel {
+    margin-left: 19.5px;
+}
+
+.content-home #Doc-details label {
+    margin-left: 30px;
+}
+
+.content-home #Doc-details #Doc-clear,
+.content-home #Doc-details #Doc-submit {
+    cursor: pointer;
+    padding: 2px 8px;
+    margin-top: 10%;
+    margin-right: 10%;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    width: 78px;
+}
+
+.content-home #Doc-details #Doc-clear {
+    margin-left: 33.8%;
+}
+
+
+/*close btn*/
+
+.close-home {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-home:hover,
+.close-home:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-div-home {
+    height: 8%;
+}
+
+#tst {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
+
+/* Remove button */
+
+.remove {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #d1d1d1;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 6px;
+    margin-left: 10%;
+}
+
+.remove:hover {
+    background-color: whitesmoke;
+}
+
+.remove-column {
+    width: 3%;
+}
+
+
+/*Print*/
+
+.tbl-print-home {
+    border-radius: 10px;
+    width: 100%;
+    overflow: auto;
+    height: fit-content;
+    margin: 15px auto;
+}
+
+.tbl-print-home #myTable-print-home {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+    background-color: rgba(238, 238, 238, 0.685);
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+}
+
+#myTable-print-home td,
+#myTable-print-home th {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+#table-content-print td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: black;
+    font-size: 15px;
+}
+
+#myTable-print-home th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid grey;
+}
+
+
+/* pop up modal print */
+
+.print-main-home {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.Print-preview-h {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 93.5%;
+    overflow: auto;
+}
+
+.print-data-main-home tr td {
+    padding: 7px 10px;
+    font-size: 17px;
+}
+
+.print-cost tr td {
+    padding: 5px 10px;
+}
+
+#print {
+    float: right;
+    cursor: pointer;
+    padding: 5px 6px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+
+/*close2*/
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

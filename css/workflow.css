@@ -1,0 +1,381 @@
+.searchbar-workflow #sampSearch,
+.searchbar-workflow #regdate {
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-top: 2%;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.searchbar-workflow #sampSearch {
+    margin-left: 20px;
+}
+
+.searchbar-workflow #regdate {
+    margin-left: 60px;
+}
+
+.searchbar-workflow #searchbtn-workflow,
+.searchbar-workflow #refresh {
+    cursor: pointer;
+    padding: 4px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    margin-top: 2%;
+    width: 90px;
+    height: 32px;
+}
+
+.searchbar-workflow #searchbtn-workflow {
+    margin-left: 9.5%;
+}
+
+.searchbar-workflow #refresh {
+    margin-left: 2%;
+}
+
+#refresh:hover,
+#searchbtn-workflow:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.results tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+.inside-search {
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+
+.container .searchbar-workflow,
+.container .cv-tbl-main {
+    display: block;
+}
+
+.container .searchbar-workflow {
+    width: 100%;
+    height: 25%;
+}
+
+.container .cv-tbl-main {
+    width: 100%;
+    height: 72%;
+}
+
+.cover-table {
+    width: fit-content;
+    height: 320px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 5px;
+}
+
+.cover-table td,
+th {
+    border-bottom: 1px solid #969595;
+}
+
+.cover-table tbody tr td {
+    padding: 4px 20px;
+}
+
+.cover-table th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px 30px;
+    font-weight: 150;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px 5px 0 0;
+    border-bottom-width: 2px;
+}
+
+#opt {
+    color: gray;
+}
+
+
+/* pop up modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-workflow {
+    background-color: #fefefe;
+    margin: 8% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 70%;
+}
+
+
+/*close btn*/
+
+.close-workflow {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-workflow:hover,
+.close-workflow:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content-workflow .close-div {
+    height: 7%;
+}
+
+.Print-preview-wf .close-div {
+    height: 7%;
+}
+
+.content-workflow .tbl {
+    height: 80%;
+    border-radius: 7px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.tbl #myTable {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: initial;
+    width: 100%;
+    border-collapse: collapse;
+    height: max-content;
+}
+
+#myTable td,
+#myTable th {
+    padding: 8px;
+    text-align: center;
+}
+
+#table-content td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#table-content tr:nth-child(even) {
+    background-color: #d9ddff;
+}
+
+#table-content tr:nth-child(odd) {
+    background-color: #ebebeb;
+}
+
+#myTable tr:hover {
+    background-color: #bde3ff;
+}
+
+#myTable th {
+    padding-top: 5px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #6c7ae0;
+    color: white
+}
+
+#tst {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    margin-left: 7%;
+}
+
+
+/*Print*/
+
+.tbl-print {
+    border-radius: 10px;
+    width: 100%;
+    overflow: auto;
+    height: fit-content;
+    margin: 15px auto;
+}
+
+.tbl-print #myTable-print {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+    background-color: rgba(238, 238, 238, 0.685);
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+}
+
+#myTable-print td,
+#myTable-print th {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+#table-content-print td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: black;
+    font-size: 15px;
+}
+
+#myTable-print th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid grey;
+}
+
+
+/* pop up modal print */
+
+.print-main-workflow {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.preview {
+    margin: 0 auto;
+    width: fit-content;
+    height: 655px;
+    background-color: #fefefe;
+    border: none;
+    overflow: auto;
+}
+
+.Print-preview-wf {
+    background-color: #fefefe;
+    margin: 0 auto;
+    border: none;
+    padding: 10px;
+    width: 656px;
+    height: fit-content;
+}
+
+.print-data-main tr td {
+    padding: 10px 5px;
+    font-size: 17px;
+}
+
+#print-workflow {
+    float: right;
+    cursor: pointer;
+    padding: 5px 6px;
+    margin-right: 3%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+
+/*close2*/
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*print btn*/
+
+.print {
+    cursor: pointer;
+    padding: 4px 12px;
+    height: 35px;
+    width: 35px;
+    background-color: #1c8adb;
+    border-radius: 20px;
+    border: none;
+    color: #1c8adb;
+    background-image: url(../images/print.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2px;
+    margin-left: 30%;
+}
+
+.print:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+.print:hover {
+    color: rgb(12, 67, 92);
+}
+
+.moreDetail-group {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: #d1d1d1;
+    background-color: #d1d1d1;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2px;
+    background-image: url(../images/more4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30%;
+}
+
+.moreDetail-group:hover {
+    background-color: whitesmoke;
+    color: whitesmoke;
+}

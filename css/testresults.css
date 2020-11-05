@@ -1,0 +1,213 @@
+.patient-details,
+.cv-tbl-main {
+    display: inline-block;
+}
+
+.patient-details {
+    width: 40%;
+    height: fit-content;
+}
+
+.cv-tbl-main {
+    width: 60%;
+    float: right;
+}
+
+.patient-details form {
+    padding-left: 10%;
+    padding-top: 8%;
+    width: auto;
+}
+
+.patient-details table td {
+    padding-top: 8%;
+}
+
+.patient-details input {
+    border: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-left: 15%;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.searchbar-result #regdate {
+    float: right;
+    margin-top: 3%;
+    margin-right: 8%;
+    border: none;
+    background: transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    height: 25px;
+    width: 100px;
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+.searchbar-result #sampSearch {
+    border: none;
+    border: 1px solid rgb(133, 133, 133);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+    margin-left: 15%;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.searchbar-result #searchbtn-result {
+    cursor: pointer;
+    padding: 4px 12px;
+    height: 35px;
+    width: 35px;
+    background-color: #1c8adb;
+    border-radius: 20px;
+    border: none;
+    color: #1c8adb;
+    margin-left: 1%;
+    background-image: url(../images/search.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#result-save,
+#result-clear {
+    cursor: pointer;
+    padding: 4px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-color: #1c8adb;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    width: 80px;
+}
+
+.down {
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+#result-save,
+#result-clear {
+    margin-left: 19.5%;
+    padding: 8px 12px;
+    width: 90px;
+}
+
+.cover-table {
+    margin-left: 8%;
+    width: 81%;
+    height: 350px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 8%;
+    border-radius: 5px;
+}
+
+.results {
+    width: 100%;
+}
+
+.cover-table td,
+th {
+    border-bottom: 1px solid #969595;
+}
+
+.cover-table tbody tr td {
+    padding: 4px 20px;
+}
+
+.cover-table th {
+    background-color: rgb(12, 67, 92);
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px 30px;
+    font-weight: 150;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px 5px 0 0;
+    border-bottom-width: 2px;
+}
+
+.results #testname {
+    width: 50%;
+}
+
+.results #para {
+    width: 20%;
+}
+
+.results tr:hover {
+    background-color: rgb(143, 154, 255);
+}
+
+#result-clear:hover,
+#result-save:hover,
+#searchbtn-result:hover,
+.remarkadd:hover,
+.edit:hover {
+    background-color: rgb(12, 67, 92);
+}
+
+#searchbtn-result:hover,
+.remarkadd:hover,
+.edit:hover {
+    color: rgb(12, 67, 92);
+}
+
+.remove-tr {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #d1d1d1;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 6px;
+    margin-top: 2px;
+    float: right;
+}
+
+.edit,
+.remarkadd {
+    cursor: pointer;
+    padding: 4px 12px;
+    height: 25px;
+    width: 25px;
+    background-color: #1c8adb;
+    border-radius: 20px;
+    border: none;
+    color: #1c8adb;
+    background-image: url(../images/edit.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2px;
+    margin-left: 60%;
+}
+
+.remove-tr:hover {
+    background-color: whitesmoke;
+}
